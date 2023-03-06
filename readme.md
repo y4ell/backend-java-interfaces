@@ -3,6 +3,7 @@
 ## Inleiding
 In deze opdracht gaan we leren hoe we interfaces kunnen gebruiken
 We gaan hier door op de vorige opdracht waar we een Customer hebben geschreven.
+Je mag verder werken in je eigen uitwerking, of deze opdracht clonen.
 
 ## Voor je begint
 
@@ -26,7 +27,7 @@ mvnw.cmd clean compile exec:java
 ## Opdracht
 
 ### Opdracht 1
-Het nadeel van overerving is dat een klasse maar 1 andere klasse kan extenden. Daarbij is het ook zo dat een VisaCard nu ook een CreditCard is, oftewel, alle wijzigingen aan CreditCard hebben ook direct invloed op het gedrag van VisaCard. Soms is dit precies wat je wil, maar soms kan dit ook leiden tot fouten, als het veranderde gedrag in de CreditCard-class bijvoorbeeld niet meer werkt met wat VisaCard probeert te doen. In plaats van overerving, kunnen we er dus ook vier kiezen een interface te implementeren. Een interface kan je zien als een contract, het beschrijft welke methoden er in die klasse moeten zitten, maar het biedt geen _implementatie_.
+Het nadeel van overerving is dat een klasse maar 1 andere klasse kan extenden. Daarbij is het ook zo dat een VisaCard nu ook een CreditCard is, oftewel, alle wijzigingen aan CreditCard hebben ook direct invloed op het gedrag van VisaCard. Soms is dit precies wat je wil, maar soms kan dit ook leiden tot fouten, als het veranderde gedrag in de CreditCard-class bijvoorbeeld niet meer werkt met wat VisaCard probeert te doen. In plaats van overerving, kunnen we er dus ook voor kiezen een interface te implementeren. Een interface kan je zien als een contract, het beschrijft welke methoden er in die klasse moeten zitten, maar het biedt geen _implementatie_.
 
 Een situatie waarin je dit zou willen gebruiken, is bijvoorbeeld klantcontact. Contact opnemen met de klant zou namelijk via meerdere kanalen kunnen. Maak daarom een nieuwe interface aan genaamd `ContactInfo`:
 
