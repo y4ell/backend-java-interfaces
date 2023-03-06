@@ -67,4 +67,4 @@ en we kunnen nu een bericht versturen door `customer.getContactInfo().sendMessag
 
 ## Bonusopdracht
 
-Maak ook een `MailContactInfo`-class, die post verstuurd naar een huisadres.
+Maak ook een `SmsContactInfo`-class, die een SMS verstuurd naar een telefoonnummer.
