@@ -1,10 +1,10 @@
 public class Customer {
 
 		public Customer(String name, String lastName, CreditCard creditCard) {
-				this(name, (int)(Math.random() * 100), lastName, creditCard);
+				this(name,  lastName, (int)(Math.random() * 100), creditCard);
 		}
 
-		public Customer(String name, int customerNumber, String lastName, CreditCard creditCard) {
+		public Customer(String name,  String lastName, int customerNumber, CreditCard creditCard) {
 				this.name = name;
 				this.customerNumber = customerNumber;
 				this.lastName = lastName;
