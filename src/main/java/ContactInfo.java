@@ -1,0 +1,3 @@
+ interface ContactInfo {
+    void sendMessage();
+}
